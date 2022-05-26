@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: FICHE DE TEST DE PERFORMANCE & QUALITE
+description: ceci est la fiche de test de performance et de qualité
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
@@ -8,8 +8,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Merci de remplir scrupuleusement ce fichier
   - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+     - type: input
     id: contact
     attributes:
       label: Contact Details
